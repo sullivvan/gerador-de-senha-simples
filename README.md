@@ -80,7 +80,7 @@ Utilização de métodos como choice(), choices(), append() e join().
 Geração de dados aleatórios.
 🎥 Materiais utilizados para estudar
 
-Para desenvolver esse projeto, utilizei vídeos do YouTube como material de apoio e aprendizado.
+Para desenvolver esse projeto, utilizei tutoriais do YouTube e pesquisas sobre cada comandos e como funciona.
 
 Vídeos utilizados:
 
