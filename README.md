@@ -29,11 +29,17 @@ Código:
 
 Como funciona?
 string.ascii_letters: disponibiliza letras maiúsculas e minúsculas.
+
 string.digits: disponibiliza números de 0 a 9.
+
 string.punctuation: disponibiliza caracteres especiais.
+
 random.choice(): escolhe um caractere aleatório.
+
 append(): adiciona o caractere à lista.
+
 join(): transforma a lista em uma única string.
+
 return: retorna a senha gerada.
 
 Resultado: uma senha aleatória com 12 caracteres.
@@ -53,9 +59,13 @@ Código:
 
 Como funciona?
 characters: reúne todas as letras, números e símbolos disponíveis.
+
 random.choices(): seleciona vários caracteres aleatórios.
+
 k=16: determina que a senha terá 16 caracteres.
+
 "".join(): junta os caracteres selecionados.
+
 print(): exibe a senha gerada.
 
 Resultado: uma senha aleatória com 16 caracteres.
