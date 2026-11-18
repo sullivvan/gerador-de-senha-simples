@@ -12,20 +12,20 @@ A ideia foi praticar conceitos como variáveis, funções, bibliotecas, strings 
 Na primeira versão, desenvolvi uma função chamada gerar_senha(), responsável por criar uma senha aleatória de acordo com o comprimento informado.
 
 Código:
-python
-import random, string
 
-def gerar_senha(comprimento):
+    import random, string
+
+    def gerar_senha(comprimento):
     caracteres = string.ascii_letters + string.digits + string.punctuation
     senha = []
     for i in range(comprimento):
         caractere = random.choice(caracteres)
         senha.append(caractere)
 
-    return ''.join(senha)
+        return ''.join(senha)
 
-senha = gerar_senha(12)
-print("Senha gerada:", senha)
+    senha = gerar_senha(12)
+    print("Senha gerada:", senha)
 
 Como funciona?
 string.ascii_letters: disponibiliza letras maiúsculas e minúsculas.
@@ -43,13 +43,13 @@ Resultado: uma senha aleatória com 12 caracteres.
 Na segunda versão, procurei simplificar o código utilizando random.choices() para selecionar vários caracteres aleatórios de uma só vez.
 
 Código:
-python
-import random, string
 
-characters = string.ascii_letters + string.digits + string.punctuation
-senha = "".join(random.choices(characters, k=16))
+    import random, string
 
-print(f"Sua nova senha: {senha}")
+    characters = string.ascii_letters + string.digits + string.punctuation
+    senha = "".join(random.choices(characters, k=16))
+
+    print(f"Sua nova senha: {senha}")
 
 Como funciona?
 characters: reúne todas as letras, números e símbolos disponíveis.
