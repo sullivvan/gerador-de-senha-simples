@@ -67,6 +67,7 @@ Função personalizada	Sim	Não
 Método aleatório	random.choice()	random.choices()
 Estrutura de repetição	Sim	Não
 Caracteres especiais	Sim	Sim
+
 🧠 O que aprendi com esse projeto?
 
 Durante o desenvolvimento, consegui praticar e compreender melhor:
@@ -92,11 +93,13 @@ Python 3
 Biblioteca random
 Biblioteca string
 Visual Studio Code (se utilizado)
+
 📌 Possíveis melhorias futuras
 Permitir que o usuário escolha o tamanho da senha.
 Criar um menu interativo.
 Adicionar opções para incluir ou remover símbolos.
 Utilizar o módulo secrets para gerar senhas com segurança criptográfica.
+
 👨‍💻 Considerações finais
 
 Esse projeto foi uma forma de colocar em prática os conhecimentos adquiridos estudando Python através de vídeos no YouTube.
