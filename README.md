@@ -84,9 +84,9 @@ Para desenvolver esse projeto, utilizei vídeos do YouTube como material de apoi
 
 Vídeos utilizados:
 
-Primeiro vídeo: [Adicionar link do YouTube aqui]
-Segundo vídeo: [Adicionar link do YouTube aqui]
-Terceiro vídeo: [Adicionar link do YouTube aqui]
+Primeiro vídeo: [https://www.youtube.com/watch?v=wwVwfe0r-k8&t=550s]
+Segundo vídeo: [https://www.youtube.com/watch?v=j3NTeX4w8YA]
+
 🛠️ Tecnologias utilizadas
 Python 3
 Biblioteca random
