@@ -28,6 +28,7 @@ Código:
     print("Senha gerada:", senha)
 
 Como funciona?
+
 string.ascii_letters: disponibiliza letras maiúsculas e minúsculas.
 
 string.digits: disponibiliza números de 0 a 9.
@@ -58,6 +59,7 @@ Código:
     print(f"Sua nova senha: {senha}")
 
 Como funciona?
+
 characters: reúne todas as letras, números e símbolos disponíveis.
 
 random.choices(): seleciona vários caracteres aleatórios.
@@ -71,24 +73,37 @@ print(): exibe a senha gerada.
 Resultado: uma senha aleatória com 16 caracteres.
 
 📊 Comparação entre os códigos
+
 Característica	Primeiro código	Segundo código
-Comprimento	12 caracteres	16 caracteres
-Função personalizada	Sim	Não
-Método aleatório	random.choice()	random.choices()
-Estrutura de repetição	Sim	Não
-Caracteres especiais	Sim	Sim
+
+Comprimento	12 caracteres / 16 caracteres
+
+Função personalizada	Sim  /	Não
+
+Método aleatório	random.choice()  /	random.choices()
+
+Estrutura de repetição	Sim  /	Não
+
+Caracteres especiais	Sim  /	Sim
 
 🧠 O que aprendi com esse projeto?
 
 Durante o desenvolvimento, consegui praticar e compreender melhor:
 
 Importação de bibliotecas no Python.
+
 Utilização dos módulos random e string.
+
 Criação e utilização de funções.
+
 Manipulação de strings e listas.
+
 Estruturas de repetição (for).
+
 Utilização de métodos como choice(), choices(), append() e join().
+
 Geração de dados aleatórios.
+
 🎥 Materiais utilizados para estudar
 
 Para desenvolver esse projeto, utilizei tutoriais do YouTube e pesquisas sobre cada comandos e como funciona.
